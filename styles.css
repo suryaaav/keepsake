@@ -1,7 +1,49 @@
 body {
-    background: rgb(126, 147, 160)
+    background: #64899a;
+    cursor: url('38-389325_aesthetic-cursor-hd-png-download__1_-removebg-preview (1) (1).png'), auto;
+
+}
+h1 {
+    font-size: 60px;
+    background-color: rgb(10, 86, 173);
+    text-align: center;
+    border: 15px solid rgb(10, 86, 173);
+    padding: 30px;
+    margin: 20px;
 }
 
+h2 {
+    font-size:35px;
+}
+
+h3 {
+    font-size:30px;
+}
+
+
+
+
+.bouncy-text {
+    position: relative;
+}
+ @keyframes bounce {
+    0% {
+        top: 0px;
+    }
+    50% {
+        top: 10px;
+    }
+    100% {
+        top: 0px;
+    }
+ }
+.bouncy-text {
+    position: relative;
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
 p {
     color: rgb(53, 16, 172);
 }
+
