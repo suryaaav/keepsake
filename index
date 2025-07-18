@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+
+        <style>
+
+.button {
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: rgb(10, 86, 173); 
+  color: black; 
+  border: 4px solid rgb(10, 86, 173);
+}
+
+.button1:hover {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+
+.button2 {
+  background-color: rgb(10, 86, 173); 
+  color: black; 
+  border: 4px solid rgb(10, 86, 173);
+}
+
+.button2:hover {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: 4px solid rgb(10, 86, 173);
+}
+
+.button3 {
+  background-color: rgb(10, 86, 173); 
+  color: black; 
+  border: 4px solid rgb(10, 86, 173);
+}
+
+.button3:hover {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: 4px solid rgb(10, 86, 173);
+}
+
+.button4 {
+  background-color: rgb(10, 86, 173);
+  color: black;
+  border: 4px solid rgb(10, 86, 173);
+}
+
+.button4:hover {
+background-color: #ffffff;
+color: rgb(0, 0, 0);
+border: 4px solid rgb(10, 86, 173);
+
+}
+
+
+
+
+</style>
+
+    </head>
+    <body>
+       <h1>Discover New Music!</h1>
+       <h2>Welcome!</h2>
+       <h3 class="bouncy-text">Click on different genres to explore!</h3>
+       
+       
+
+      
+<a href="https://www.ranker.com/list/best-pop-artists-right-now/akansha-kakkad" class="button button1">Pop</a>
+<a href="https://yo.ee/the-most-popular-hip%E2%80%91hop-artists-of-2025/" class="button button2">Hip Hop</a>
+<a href="https://www.ranker.com/list/best-rappers-right-now/akansha-kakkad " class="button button3">Rap</a>
+<a href="https://www.ranker.com/list/best-rhythm-and-blues-artists-right-now/akansha-kakkad " class="button button4">R&B</a>
+
+
+    </body>
+</html>
